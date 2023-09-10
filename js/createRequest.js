@@ -19,4 +19,4 @@ function createRequest(method, url, data, callback) {
     }
   };
   xhr.send(data);
-}
+};

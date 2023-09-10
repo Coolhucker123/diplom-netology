@@ -51,7 +51,7 @@ createRequest('POST', 'https://jscp-diplom.netoserver.ru/', `event=get_hallConfi
             }
 
         });
-    })
+    });
 
 
     acceptinButton.addEventListener('click', function () {
