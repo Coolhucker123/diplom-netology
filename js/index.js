@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
            <ul class="movie-seances__list">
              ${seances.map(seance => `
                <li class="movie-seances__time-block">
-                 <a class="movie-seances__time" href="hall.html" data-film-name ="${film.film_name}" 
+                 <a class="movie-seances__time" href="Hall.html" data-film-name ="${film.film_name}" 
                  data-seance-start="${seance.seance_start}" data-seance-time="${seance.seance_time}" 
                  data-hall-name="${hall.hall_name}" data-hall-id="${hall.hall_id}" data-seance-id="${seance.seance_id}" 
                  data-hall-price-standart="${hall.hall_price_standart}"
